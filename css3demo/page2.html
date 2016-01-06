@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width, maximum-scale=1, user-scalable=no"  />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name='apple-touch-fullscreen' content='yes'>
+    <meta name="full-screen" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="format-detection" content="telephone=no"/>
+    <meta name="format-detection" content="address=no"/>
+    <meta name="language" content="zh-CN" />
+    <title>web app</title>
+    <link type="text/css" rel="stylesheet" href="stylesheets/main.css"/>
+    <script type="text/javascript" src="javascripts/libs/zepto.js"></script>
+    <script type="text/javascript" src="javascripts/libs/touch.js"></script>
+    <script type="text/javascript" src="javascripts/libs/fx.js"></script>
+    <script type="text/javascript" src="javascripts/libs/fx_methods.js"></script>
+    <script type="text/javascript" src="javascripts/main.js"></script>
+</head>
+
+<body>
+    <div id="OLoading"><img src="images/loading.gif" /><span>加载中</span></div>
+    <div id="MainShow">
+    <!--pjaxstart-->
+        <div class="mheader">WEBAPP DEMO<div class="mbtns"><a href="login.html" class="pjtop btn_logout"></a><a href="category.html" class="pjright btn_category"></a><a href="#" class="btn_search" onclick="return showsearch();"></a></div></div>
+        <div class="msearchbox"><input type="text" name="keyword" value="" placeholder="请输入关键字" class="searchbox_txt" /><a href="#" class="searchbox_btn" onclick="return dosearch();"></a></div>
+        <div class="mbody">
+            <div class="mcontent">
+                <br />
+                <img src="images/temp/1.jpg" /><br />
+                <img src="images/temp/2.jpg" /><br />
+                <img src="images/temp/3.jpg" /><br />
+                <img src="images/temp/4.jpg" /><br />
+                <img src="images/temp/5.jpg" /><br />
+                <img src="images/temp/6.jpg" /><br />
+            </div>
+        </div>
+    <!--pjaxend-->
+    </div>
+</body>
+</html>
